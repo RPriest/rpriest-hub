@@ -26,7 +26,6 @@
 .heading-title {
     color: rgb(15, 145, 145);
     font-weight: 900;
-    margin-bottom: 3px;
     text-transform: uppercase;
     font-size: clamp(1.6vw, 1vw, 0.4em);
 }
@@ -71,7 +70,7 @@ h2 {
 
 .second-heading-div {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .top-tag {
