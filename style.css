@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-page {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.top-line {
+    background-color: rgb(10, 151, 151);
+    width: 100%;
+    height: 6px;
+}
+
+.header-section {
+    background-color: antiquewhite;
+    padding: 15px;
+    margin-bottom: 4.5vw;
+}
+
+.heading-title {
+    color: rgb(15, 145, 145);
+    font-weight: 900;
+    margin-bottom: 0.4vw;
+    text-transform: uppercase;
+    font-size: clamp(1.6vw, 1vw, 0.4em);
+}
+
+.heading-text {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.nav-bars ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav-bar {
+    display: inline-block;
+    margin-right: 2vw;
+    font-size: clamp(0.9vw, 1.3vw, 0.9em);
+}
+
+a {
+    color: rgb(42, 160, 160);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(18, 99, 99);
+}
+
+.second-heading {
+    color: rgb(30, 121, 121);
+    font-size: 2.4vw;
+}
+
+h2 {
+    color: rgb(30, 121, 121);
+    font-size: 1.8vw;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.second-heading-div {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.top-tag {
+    background-color: rgb(255, 208, 0);
+    width: 2.5vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(63, 63, 11);
+    padding: 0.5vw;
+    font-weight: 900;
+    position: absolute;
+    top: -1.3vw;
+    right: -20px;
+    font-size: 1vw;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+}
+
+.profile-pic-comment {
+    font-style: italic;
+    font-size: 1.1vw;
+    margin-bottom: 7px;
+}
+
+.profile-pic-comment>cite {
+    font-weight: 900;
+}
+
+.code-snippet {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.body-text {
+    font-size: 1.3vw;
+    margin-bottom: 8px;
+    line-height: 2.1vw;
+    text-align: left;
+    width: 95%;
+}
+
+.main-list {
+    margin-left: 3vw;
+    font-size: 1.2vw;
+    margin-bottom: 5px;
+    line-height: 2.1vw;
+    text-align: left;
+    width: 95%;
+}
+
+.list-1 {
+    font-weight: 900;
+}
+
+.ul-list-style {
+    list-style-type: circle;
+}
+
+.list-3 {
+    font-style: italic;
+}
+
+.related-post-div {
+    position: relative;
+    background-color: rgb(228, 228, 228);
+    width: 60%;
+    margin-top: 3vw;
+}
+
+.related-upper-line, .related-bottom-line {
+    background-color: rgb(58, 158, 158);
+    width: 100%;
+    height: 3px;
+}
+.related-upper-line{
+    position: absolute;
+    top: 0;
+}
+
+.related-bottom-line{
+    position: absolute;
+    bottom: 0;
+}
+.related-topic{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+.related-body{
+   padding: 1vw 2.5vw 4vw;
+}
+
+.related-img{
+    width: 5vw;
+    height: 5vw;
+}
+
+.related-list{
+    list-style-type: none;
+}
+
+.related-ancor{
+    font-size: 1.2vw;
+}
+
+.related-text{
+    font-size: 1.16vw;
+    font-weight: 500;
+    margin-bottom: 8px;
+    line-height: 2.1vw;
+    text-align: left;
+    width: 95%;
+}
+
+.related-last-text{
+    font-style: italic;
+}
+
+.footer-text{
+    font-size: 1vw;
+}
+
+.like-btn {
+    position: absolute;
+    bottom: 5vw;
+    right: -20vw;
+    padding: 1.2em 1.1em;
+    font-size: 10px;
+    width: 7em;
+    border: 1px solid rgb(204, 201, 201);
+    background-color: rgb(214, 214, 214);
+}
+
+.like-btn:hover{
+    background-color: rgb(97, 89, 79);
+    color: white;
+}
