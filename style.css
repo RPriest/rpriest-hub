@@ -19,8 +19,8 @@
 
 .header-section {
     background-color: rgb(248, 243, 243);
-    padding: 15px;
-    margin-bottom: 4.5vw;
+    padding: 10px;
+    margin-bottom: 3.5vw;
 }
 
 .heading-title {
@@ -97,7 +97,7 @@ h2 {
 .profile-pic-comment {
     font-style: italic;
     font-size: 1.1vw;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .profile-pic-comment>cite {
@@ -111,7 +111,7 @@ h2 {
 
 .body-text {
     font-size: 1.3vw;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     line-height: 2.1vw;
     text-align: left;
     width: 95%;
@@ -204,7 +204,7 @@ h2 {
     position: absolute;
     bottom: 5vw;
     right: -20vw;
-    padding: 10px 5px;
+    padding: 5px;
     font-size: 10px;
     width: 50px;
     border: 1px solid rgb(204, 201, 201);
