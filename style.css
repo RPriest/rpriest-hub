@@ -28,6 +28,7 @@
     font-weight: 900;
     text-transform: uppercase;
     font-size: clamp(1.6vw, 1vw, 0.4em);
+    margin-bottom: 5px;
 }
 
 .heading-text {
@@ -35,6 +36,7 @@
 }
 
 .nav-bars ol {
+    margin-top: 0;
     list-style-type: none;
     padding-left: 0;
 }
